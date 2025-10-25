@@ -317,3 +317,25 @@ dmypy.json
 .pyre/
 .pytype/
 cython_debug/
+# Environment variables
+.env.dev
+.env.prod
+!.env.example
+# Database
+*.sqlite3
+*.db
+# Logs
+logs/
+# Media
+media/
+# Static files
+staticfiles/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+# OS
+.DS_Store
+Thumbs.db
+
